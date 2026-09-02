@@ -1,0 +1,38 @@
+{
+  "model_type": "RandomForestRegressor",
+  "n_estimators": 120,
+  "metrics": {
+    "rmse_minutes": 15.51,
+    "mae_minutes": 8.79,
+    "r2_score": 0.9586
+  },
+  "feature_importances": {
+    "farmers_ahead": 0.5935,
+    "active_quality_counters": 0.2163,
+    "active_weighing_counters": 0.1436,
+    "crop_type_Cotton": 0.0101,
+    "quantity_quintals": 0.0098,
+    "hour_of_day": 0.0065,
+    "avg_recent_stage_duration": 0.0063,
+    "is_peak_season": 0.0053,
+    "active_staff_count": 0.003,
+    "crop_type_Wheat": 0.003,
+    "crop_type_Paddy": 0.0014,
+    "crop_type_Mustard": 0.0006,
+    "crop_type_Soybean": 0.0004,
+    "crop_type_Maize": 0.0002,
+    "crop_type_Gram": 0.0001
+  },
+  "feature_cols": [
+    "farmers_ahead",
+    "crop_type",
+    "quantity_quintals",
+    "active_weighing_counters",
+    "active_quality_counters",
+    "active_staff_count",
+    "avg_recent_stage_duration",
+    "hour_of_day",
+    "is_peak_season"
+  ],
+  "dataset_size": 4000
+}
